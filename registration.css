@@ -1,0 +1,73 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/* For background image */
+.bg-img {
+  background-image: url("gradient-dynamic-blue-lines-background_23-2148995756.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Form styles*/
+.form2 {
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+.form2 h1{
+    color:white (241, 234, 234);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.form2{
+    color: white (243, 243, 243);
+}
+.form2 input[type="text"],.form2 input[type="email"],.form2 input[type="number"],.form2 input[type="password"]{
+    border: 0;
+    background: none;
+    display: ruby-base;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid whitesmoke;
+    padding:8px 4px;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.form2 input[type="text"],.form2 input[type="email"],.form2 input[type="number"],.form2 input[type="password"]{
+
+    width: 190px;
+    border-color: whitesmoke;
+}
+.form2 input[type="submit"]{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    display:inline-table;
+    margin: 15px auto;
+    text-align: center;
+    border:2px solid whitesmoke;
+    padding:10px 20px;
+    width: 100px;
+    outline: none;
+    color: rgb(255, 254, 254);
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor:pointer;
+}
+/*link for signup*/
+a:visited{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+

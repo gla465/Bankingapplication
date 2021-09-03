@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <!-- for Bootstrap and css --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="credit.css">
+    <script text="text/javascript" src="transaction1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Adding background image -->
+    <div class= "bg-img">
+        <!-- for navigation bar and logout button -->
+        <nav class="navbar navbar-inverse">
+            <a class="navbar-brand" href="#"><b>IB BANK</b></a>        
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html"><b>Home</b></a></li>
+            <li><a href="userdashboard.html"><b>USER</b></a></li>
+            <li><a href="debit.html"><b>DEBIT</b></a></li>
+          </ul>
+          <button class="btn btn-danger navbar-btn" onclick="document.location='login.html'"><b>LOGOUT</b></button>
+          </nav>
+          <!-- credit container -->
+        <div class= "container">
+            <h1 align="center">CREDIT</h1>
+            <center> <label><h2> Acc Number</h2></label > <br>
+            <input type="text" placeholder="Enter Your Acc Number" name="accnumber" id="acno"> <br>
+            <label><h2> Pin</h2></label > <br>
+            <input type="number" placeholder="Enter Your Pin" name="pin" id="pin"><br>
+            <label><h2> Amount</h2></label><br>
+            <input type="number" placeholder="Enter Your Amount" name="amount" id="amt"><br>
+            <label><h2> Date</h2></label> <br>
+            <input type="date"  name="date" id="cdate"><br><br><br></center>
+        </div>
+        <center><button type="submit" onclick="Bank.deposit()">CREDIT</button></center>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/* Adding background image */
+.bg-img {
+  background-image: url("gradient-dynamic-blue-lines-background_23-2148995756.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Form styles*/
+.form1 {
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+.form1 h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.form1 ,.log{
+    color: black;
+}
+.form1 input[type="text"],.form1 input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid whitesmoke;
+    padding:10px 8px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.form1 input[type="text"]:focus,.form1 input[type="password"]:focus{
+    width: 190px;
+    border-color: rgb(0, 0, 0);
+}
+.form1 input[type="submit"]{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    display:inline-table;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(0, 0, 0);
+    padding:14px 35px;
+    width: 150px;
+    outline: none;
+    color: rgb(224, 205, 205);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;
+}
+/*Link for signup*/
+a:visited{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+

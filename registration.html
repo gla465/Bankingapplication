@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- For Bootstrap and css -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<body>
+  <!-- Adding background image -->
+  <div class="bg-img">
+    <!-- For navigation bar -->
+    <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#"><b>IB BANK</b></a>        
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><b>Home</b></a></li>
+        <li><a href="aboutus.html"><b>ABOUT US</b></a></li>
+        <li><a href="contactus.html"><b>CONTACT US</b></a></li>
+        </ul>
+      <button class="btn btn-danger navbar-btn" onclick="document.location='login.html'"><b>LOGIN</b></button>
+      </nav>
+    <!-- Container for registration -->
+      <div class="container">  
+<form name="myform" method="post" name="registration" action="">
+  <div class="container">
+    <h1 align="center">REGISTRATION</h1>
+<center> <label> <b>Name</b></label><br>
+<input type="text" placeholder="Enter your Name" name="name" required></br/><br>  
+<laber for="gender"><b>Gender</b></laber><br>
+    <input type="radio" name="gender" id="gen" value="male" > <label for="male">Male</label>
+    <input type="radio" name="gender" id="gen" value="female"><label for="female">Female</label>
+    <input type="radio" name="gender" id="gen" value="others"><label for="others">Others</label><br><br>
+<label><b>Email</b></label><br>
+<input type="text" placeholder="Enter Your Email" name="email" required></br/><br>  
+<label><b>Phonenumber </b></label><br>
+<input type="tel"  name="phonenumber" required></br/> <br>
+<label><b>Date Of Birth</b></label><br>
+<input type="date" name="dateofbirth" required></br/> <br> 
+<label><b>User Name</b></label><br>
+<input type="text" placeholder="Enter Username" name="username" required></br/><br>   
+<label><b>Password</b></label><br>
+<input type="password" placeholder="Enter Password" name="password" required></br/> <br> 
+<label><b>Confirm Password</b></label><br>
+<input type="password" placeholder="Confirm Password" name="confirmpassword" required></br/> <br>
+<button type="submit" class="registerbtn">Register</button></center></div>
+</form>
+</div>
+</div>  
+</body>
+</html>

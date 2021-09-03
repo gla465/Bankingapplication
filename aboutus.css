@@ -1,0 +1,15 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/* Adding background image */
+.bg-img {
+  background-image: url("gradient-dynamic-blue-lines-background_23-2148995756.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Aligining the text */
+p.align{
+  max-width: 90%;
+}

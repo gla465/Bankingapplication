@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- For Bootstrap and css -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link rel="stylesheet" href="login.css">
+        <script text="text/javascript" src="transaction1.js"></script>
+        <script text="text/javascript" src="loginvalidation.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+      <!-- Adding background image -->
+      <div class="bg-img">
+        <!-- For navigation bar -->
+        <nav class="navbar navbar-inverse">
+          <a class="navbar-brand" href="#"><b>IB BANK</b></a>        
+          <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html"><b>Home</b></a></li>
+          <li><a href="aboutus.html"><b>ABOUT US</b></a></li>
+          <li><a href="contactus.html"><b>CONTACT US</b></a></li>
+        </ul>
+        <button class="btn btn-danger navbar-btn" onclick="document.location='login.html'"><b>LOGIN</b></button>
+        <button class="btn btn-danger navbar-btn" onclick="document.location='registration.html'"><b>SIGNUP</b></button>
+        </nav>
+        <div class="container">
+        <form action="" method="GET" class="form1" name="login" onsubmit="return validateform()">    
+          <!--Heading-->
+          <h1 class="header1">LOGIN</h1><br><br>
+          <!--Username,submit & password text field-->
+          <div class="log">
+          <input type="text" id="acno" name="acno" placeholder="Enter Account Number" title="Enter your Account Number" maxlength="30"><br>
+          <input type="password" id="pwd" name="pwd" max="15" placeholder="Enter Password" title="Enter your password"><br>
+          <input type="submit" value="Login" onclick="Bank.login()"><br><br><br></div>
+          <!--Link to registration form-->
+         New User? <a href="registration.html" title="signup for more!!">REGISTER</a>
+        </form>
+      </div>
+      </div>
+    </body>
+</html>
