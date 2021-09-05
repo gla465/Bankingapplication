@@ -9,3 +9,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* for background color */
+.jumbotron{
+background-color: rgb(109, 240, 109);
+}
+
